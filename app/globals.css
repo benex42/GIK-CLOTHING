@@ -69,3 +69,4 @@
 .search-drawer { position:fixed; top:80px; left:50%; right:auto; width:min(82vw,1000px); transform:translateX(-50%); border-radius:0 0 19px 19px; }
 .filter-pills button { border-radius:999px; }
 @media (max-width:620px) { .shop-header { top:9px; width:calc(100vw - 32px); height:54px; }.shop-header .header-actions { gap:14px; margin-right:3px; }.shop-header .menu-button { min-width:25px; padding-left:0; }.shop-header .menu-button i { left:3px; }.shop-hero { padding-top:104px; }.search-drawer { top:63px; width:calc(100vw - 32px); } }
+.arrow-icon { display: inline-block; font-family: Arial, sans-serif; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; pointer-events: none; }
