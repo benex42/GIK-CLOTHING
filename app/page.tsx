@@ -60,7 +60,7 @@ export default function Home() {
           View all pieces
         </motion.a>
       </motion.div>
-      <div className="category-grid">{categories.map((category, index) => <a className="category" href="/store" key={category.name}><img src={category.image} alt={category.name} /><div><span>0{index + 1}</span><h3>{category.name}</h3><b>↗</b></div></a>)}</div></section>
+      <div className="category-grid">{categories.map((category, index) => <a className="category" href="/store" key={category.name}><img src={category.image} alt={category.name} /><div><span>0{index + 1}</span><h3>{category.name}</h3></div></a>)}</div></section>
     <section className="campaign">
       <div className="campaign-image" />
       <motion.div
